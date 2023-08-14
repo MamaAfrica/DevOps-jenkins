@@ -18,7 +18,7 @@ docker build -t myjenkins-blueocean:lts .
 
 #IF you are having problems building the image yourself, you can pull from my registry. `myjenkins-blueocean:lts`
 
-docker pull mamaafrica/jenkins-blueocean:lts && docker tag mamaafrica/jenkins-blueocean:lts myjenkins-blueocean:lts
+docker pull mamaafrica/myjenkins-blueocean:lts && docker tag mamaafrica/myjenkins-blueocean:lts myjenkins-blueocean:lts
 ```
 
 ## Create the network 'jenkins'
